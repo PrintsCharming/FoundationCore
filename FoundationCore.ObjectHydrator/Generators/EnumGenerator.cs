@@ -1,7 +1,7 @@
 ﻿using System;
-using Foundation.ObjectHydrator.Interfaces;
+using FoundationCore.ObjectHydrator.Interfaces;
 
-namespace Foundation.ObjectHydrator.Generators
+namespace FoundationCore.ObjectHydrator.Generators
 {
     public class EnumGenerator:IGenerator<object>
     {

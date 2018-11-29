@@ -24,6 +24,11 @@ namespace FoundationCore.ObjectHydrator
             return instance;
         }
 
+        public T GetSingle()
+        {
+            return Generate();
+        }
+
         private void Populate(T instance)
         {
             AddTypeMapToPropertyMap();

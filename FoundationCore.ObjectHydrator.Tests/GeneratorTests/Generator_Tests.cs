@@ -1,5 +1,5 @@
-﻿using Foundation.ObjectHydrator.Generators;
-using FoundationCore.ObjectHydrator.Generators;
+﻿using FoundationCore.ObjectHydrator.Generators;
+
 using FoundationCore.ObjectHydrator.Interfaces;
 using NUnit.Framework;
 using System;

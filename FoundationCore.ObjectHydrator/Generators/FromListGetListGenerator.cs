@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Foundation.ObjectHydrator.Interfaces;
+using FoundationCore.ObjectHydrator.Interfaces;
 
-namespace Foundation.ObjectHydrator.Generators
+namespace FoundationCore.ObjectHydrator.Generators
 {
     public class FromListGetListGenerator<T>:IGenerator<IList<T>>
     {

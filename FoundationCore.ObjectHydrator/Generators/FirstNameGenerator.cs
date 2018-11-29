@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using FoundationCore.ObjectHydrator;
 using FoundationCore.ObjectHydrator.Interfaces;
 
-namespace Foundation.ObjectHydrator.Generators
+namespace FoundationCore.ObjectHydrator.Generators
 {
     public class FirstNameGenerator:IGenerator<string>
     {

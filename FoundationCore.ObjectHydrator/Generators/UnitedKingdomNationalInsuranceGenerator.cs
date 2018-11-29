@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Foundation.ObjectHydrator.Interfaces;
+using FoundationCore.ObjectHydrator.Interfaces;
 
-namespace Foundation.ObjectHydrator.Generators
+namespace FoundationCore.ObjectHydrator.Generators
 {
     /// <summary>
     /// Attempts to generate a unique value that conforms to the UK National Insurance number specification

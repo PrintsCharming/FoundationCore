@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Foundation.ObjectHydrator.Interfaces;
+using FoundationCore.ObjectHydrator.Interfaces;
 
-namespace Foundation.ObjectHydrator.Generators
+namespace FoundationCore.ObjectHydrator.Generators
 {
     public class UnitedKingdomPostCodeGenerator : IGenerator<string>
     {

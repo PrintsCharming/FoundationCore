@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Globalization;
-using Foundation.ObjectHydrator.Interfaces;
+using FoundationCore.ObjectHydrator.Interfaces;
 
-namespace Foundation.ObjectHydrator.Generators
+namespace FoundationCore.ObjectHydrator.Generators
 {
     public sealed class CulturesGenerator<TProperty> : IGenerator<TProperty>
     {

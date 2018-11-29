@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Reflection;
-using Foundation.ObjectHydrator.Interfaces;
+using FoundationCore.ObjectHydrator.Interfaces;
 using System.Collections.Generic;
 
-namespace Foundation.ObjectHydrator.Generators
+namespace FoundationCore.ObjectHydrator.Generators
 {
     public class TypeListGenerator : IGenerator
     {
@@ -25,7 +25,7 @@ namespace Foundation.ObjectHydrator.Generators
             Object instance = Activator.CreateInstance(typeOfEntity);
 
             //this string scares me.
-            Type hydratorType = Type.GetType("Foundation.ObjectHydrator.Hydrator`1").MakeGenericType(typeOfEntity);
+            Type hydratorType = Type.GetType("FoundationCore.ObjectHydrator.Hydrator`1").MakeGenericType(typeOfEntity);
 
             Object theHydrator = Activator.CreateInstance(hydratorType);
 
